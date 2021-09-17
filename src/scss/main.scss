@@ -1,2 +1,18 @@
-@import "section";
 @import "globals";
+@import "grids";
+@import "section";
+
+.hg{ 
+    
+    $break: 800px; 
+
+    @include hgrid(12, 20px, $break, true);
+
+    // extend 
+    @media only screen and (min-width : $break) {  
+        &--complex{
+            grid-template-columns: repeat(3, 1fr);           
+        }
+    }
+    
+}
