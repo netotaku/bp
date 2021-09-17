@@ -7,4 +7,8 @@
   margin: 0px;
   box-sizing: border-box; }
 
+html {
+  background: blue;
+  color: white; }
+
 /*# sourceMappingURL=main.css.map */
