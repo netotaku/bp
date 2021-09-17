@@ -1,0 +1,14 @@
+.section {
+  height: 100vh;
+  position: relative; }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+html {
+  background: blue;
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */
